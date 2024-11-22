@@ -2,8 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-
-    list-style: none;
+list-style: none;
     box-sizing: border-box;
     font-family: anton;
 }
@@ -16,11 +15,12 @@ html{
 
 .section1{
 width: 100%;
-padding: min(30vh, 30rem);
+padding: min(15vh, 30rem);
 background-image: url(img/1.png);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+width: 100%;
 }
 
 .container-section1{
@@ -64,9 +64,174 @@ width: 37rem;
 .section1 ul{
 display: flex;
 gap: 30px;
-color: #aaaaaa;
+color: #adadad;
 font-weight: 200;
 list-style: none;
 text-decoration: none;
 margin-top: 6rem;
 }
+
+
+.section1 ul li{
+    color: #adadad;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.section2{
+    padding: min(30vh, 30rem);
+    background-image: url(img/img-section2.png);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+}
+
+.container-section2{
+display: flex;
+gap: 80px;
+}
+
+.container-itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 30px
+}
+
+.container-section2 h2{
+    margin-bottom: 20px;
+}
+
+
+.container-itens p{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.container-itens > div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .container-itens img{
+width: 10rem;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+    .container-itens > div:hover{
+        width: 210px;
+        height: 210px;
+        transition: 0.8s;
+        cursor: pointer;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.562) ;
+    }
+
+
+
+    .section3{
+        padding: min(30vh, 30rem);
+        background-color: #f1eeee;
+        width: 100%;
+    }
+
+
+
+    .section3 img{
+        width: 400px;
+ 
+    }
+
+
+    .h3-p-section2{
+        font-size: 15px;
+    }
+
+    .section4{
+        padding: min(30vh, 30rem);
+        background-color: #f1eeee;
+        width: 100%;
+    }
+
+    .container-section4{
+        display: flex;
+        gap: 80px;
+            }
+        
+
+
+    .section4 img{
+        width: 400px;
+      
+    }
+
+
+    .h3-p-section2{
+        font-size: 15px;
+    }
+
+
+    .button-4 a{
+        margin-top: 20px;
+        display: flex;
+       
+        color: black;
+        
+    }
+
+    
+    .section5{
+        padding: min(15vh, 20rem);
+        background-color: #f1eeee;
+        width: 100%;
+    }
+
+    .container-section5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+input{
+        margin-bottom: 10px;
+    }
+
+
+
+    footer{
+        padding: min(5vh, 5rem);
+        background-color: #f1eeee;
+   display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    footer ul{
+        display: flex;
+        gap: 15px;
+  
+    }
+    
+    footer ul li{
+        color: #adadad;
+    }
+
+.itens-footer i{
+        gap: 50px;
+    }
